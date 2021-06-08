@@ -8,5 +8,33 @@ module.exports = (sequelize) => {
       type: DataTypes.STRING,
       allowNull: false,
     },
+
+    summary:{  
+      type: DataTypes.TEXT,
+      allowNull: false
+    },
+
+    score:{
+      type: DataTypes.INTEGER,
+    },
+
+    healtScore:{
+      type: DataTypes.INTEGER
+    },
+
+    instructions:{
+      type: DataTypes.TEXT
+    },
+
+    image:{
+      type: DataTypes.STRING
+    },
+
+    mine:{
+      type: DataTypes.BOOLEAN,
+      allowNull: false,
+      defaultValue: false
+    }
+
   });
 };
