@@ -1,0 +1,21 @@
+.about{
+   
+    font-size: 2rem;
+}
+
+.buttonBack{
+    color: white;
+    border: 3px solid white;
+    width: 150px;
+    cursor: pointer;
+}
+
+.buttonBack:hover{
+    background-color: black;
+}
+
+.container{
+    color: white;
+    display: block;
+    align-items: center;
+}

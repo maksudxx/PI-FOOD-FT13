@@ -1,0 +1,28 @@
+.text{
+
+    margin-right: 10px;  
+}
+.container{
+    color: white;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search{
+    display: flex;
+}
+
+.buttonSearch{
+   color: white;
+    border: 1px solid white;
+    margin: 0 5px;
+    border-radius: 5px;
+    width: 80px;
+}
+
+.buttonSearch:hover{
+    background-color: black;
+   
+}

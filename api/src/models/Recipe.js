@@ -18,7 +18,7 @@ module.exports = (sequelize) => {
       type: DataTypes.INTEGER,
     },
 
-    healtScore:{
+    healthScore:{
       type: DataTypes.INTEGER
     },
 
@@ -26,15 +26,22 @@ module.exports = (sequelize) => {
       type: DataTypes.TEXT
     },
 
-    image:{
+    diet : {
+      type: DataTypes.TEXT,
+    },
+
+    image: {
       type: DataTypes.STRING
     },
 
-    mine:{
+    mine: {
       type: DataTypes.BOOLEAN,
       allowNull: false,
       defaultValue: false
-    }
+    }, 
+
+
+
 
   });
 };
