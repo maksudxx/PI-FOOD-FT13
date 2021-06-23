@@ -1,13 +1,11 @@
-import CardsRecipes from "../../Components/CardsRecipes"
-
+import InfoHome from '../../infohome/InfoHome';
+import styles from './home.module.css';
 
 export default function Home(){
     return(
         <div>
-            home 
-            {/* <CardsRecipes/> */}
+            <h1 className={styles.title}>HOME</h1>
+            <InfoHome/>
         </div>
-        
-        
     )
 }

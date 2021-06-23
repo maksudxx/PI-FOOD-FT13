@@ -1,0 +1,13 @@
+.component{
+    width: 800px;
+    border: 1px solid black;
+    background-color: antiquewhite;
+    margin-top: 30px;
+    margin-left: 200px;
+    opacity: 0.8;
+}
+
+.image{
+    width:60px;
+    margin-top: 10px;
+}

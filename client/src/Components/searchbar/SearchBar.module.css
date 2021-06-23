@@ -1,6 +1,6 @@
 .text{
-
-    margin-right: 10px;  
+    margin-right: 10px; 
+    
 }
 .container{
     color: white;
@@ -12,17 +12,23 @@
 
 .search{
     display: flex;
+    position: relative;
 }
 
-.buttonSearch{
-   color: white;
-    border: 1px solid white;
-    margin: 0 5px;
+.searchButton{
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    height: 100%;
+    border: none;
+    background: none;
+}
+
+.searchInput{
+    
     border-radius: 5px;
-    width: 80px;
-}
-
-.buttonSearch:hover{
-    background-color: black;
-   
+    /* // el padding es para que no se pase texto sobre el boton de busqueda */
+    padding: 5px 30px 5px 10px;
+    margin-bottom: 5px;
 }

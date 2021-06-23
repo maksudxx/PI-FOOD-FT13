@@ -1,0 +1,19 @@
+.recipesGrid{
+    display: grid;
+    
+    grid-template-columns: repeat(auto-fill, 230px);  
+    gap: 40px; 
+    padding: 40px;
+    justify-content: center;
+}
+
+.title{
+    color: white;
+    font-size: 3rem
+}
+
+@media (max-width: 560px){
+    .recipesGrid{
+        grid-template-columns: 100%;    
+    }
+}

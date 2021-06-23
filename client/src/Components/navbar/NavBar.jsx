@@ -6,10 +6,11 @@ import Logo from "../../img/navbar.png";
 export default function NabVar() {
   return (
     <nav className={styles.navBar}>
-      <SearchBar />
       <Link to="/home">
-        <img src={Logo} alt="logo" height={60}/>
+        <img src={Logo} alt="logo" height={60} className={styles.logo}/>
       </Link>
+      <SearchBar />
+      
 
       <div className={styles.menu}>
         <Link to="/createRecipe">
@@ -17,14 +18,19 @@ export default function NabVar() {
             <p className={styles.paragraph}>Create recipe</p>
           </div>
         </Link>
-        <Link to="/types">
+        <Link to="/recipes">
           <div className={styles.buttonMenu}>
-            <p className={styles.paragraph}>Diet Types</p>
+            <p className={styles.paragraph}>View Recipes</p>
           </div>
         </Link>
         <Link  to="/about">
           <div className={styles.buttonMenu}>
             <p className={styles.paragraph}>About</p>
+          </div>
+        </Link>
+        <Link  to="/">
+        <div className={styles.buttonMenu}>
+            <p className={styles.paragraph}>Exit</p>
           </div>
         </Link>
       </div>

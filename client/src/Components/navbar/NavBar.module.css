@@ -1,14 +1,18 @@
 .navBar{
-    background-color: rgb(112, 117, 112);
+    background-color: rgb(231, 88, 88);
     height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    /* position: fixed;
+    width: 100%;
+    z-index: 1; */
+    
 }
 
 .menu{
     display: flex;
+    margin-right: 20px;
 }
 
 .img{
@@ -28,4 +32,12 @@
 
 .paragraph{
     margin: 15px ;
+}
+
+.logo{
+    margin-left: 50px;
+
+    /* quita el fondo balnco a un png */
+   filter: brightness(1.1);
+   mix-blend-mode: multiply;
 }
